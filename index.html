@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Drag and Drop Quiz</h1>
+   
+    <div id="container">
+        <div id="questions">
+            <div class="question-container" id="question1">
+                <div class="question">Who was the first Mughal emperor of India?</div>
+                <div id="dropzone1" class="dropzone" data-answer="Babur"></div>
+            </div>
+            <div class="question-container" id="question2">
+                <div class="question">Which Indian leader is known as the 'Father of the Nation'?</div>
+                <div id="dropzone2" class="dropzone" data-answer="Mahatma Gandhi"></div>
+            </div>
+            <div class="question-container" id="question3">
+                <div class="question">Which treaty ended the First Anglo-Maratha War?</div>
+                <div id="dropzone3" class="dropzone" data-answer="Treaty of Salbai"></div>
+            </div>
+            <div class="question-container" id="question4">
+                <div class="question">Who was the founder of the Sikh Empire?</div>
+                <div id="dropzone4" class="dropzone" data-answer="Maharaja Ranjit Singh"></div>
+            </div>
+            <div class="question-container" id="question5">
+                <div class="question">Which Indian queen fought against the British in the Revolt of 1857?</div>
+                <div id="dropzone5" class="dropzone" data-answer="Rani Lakshmibai"></div>
+            </div>
+        </div>
+ 
+        <div id="drag">
+            <div id="drag1" class="draggable div" data-answer="Babur" style="top: 0; left: 0;">Babur</div>
+            <div id="drag2" class="draggable div" data-answer="Mahatma Gandhi" style="top: 60px; left: 0;">Mahatma Gandhi</div>
+            <div id="drag3" class="draggable div" data-answer="Treaty of Salbai" style="top: 120px; left: 0;">Treaty of Salbai</div>
+            <div id="drag4" class="draggable div" data-answer="Maharaja Ranjit Singh" style="top: 180px; left: 0;">Maharaja Ranjit Singh</div>
+            <div id="drag5" class="draggable div" data-answer="Rani Lakshmibai" style="top: 240px; left: 0;">Rani Lakshmibai</div>
+        </div>
+    </div>
+ 
+    <div class="feedback" id="feedback"></div>
+ 
+    <script src="script.js"> </script>
+</body>
+</html>
+ 
+
+
+
+
+
